@@ -1,0 +1,52 @@
+
+
+
+
+--------------------------------------------------------------------------------
+-- Widget plugin for development
+--------------------------------------------------------------------------------
+
+
+<!--Widergy Chatbot Style Ini-->
+<link href="https://chatbots.widergydev.com/Edenor-UtilityGO/chatbot/botchat.css" rel="stylesheet" />-->
+<!--Widergy Chatbot Style Ini-->
+
+
+<!--Widergy Chatbot Script Ini-->
+<div id="chat-bot"/>
+<script src="https://chatbots.widergydev.com/Edenor-UtilityGO/chatbot/botchat.js" charset="UTF-8" async="" ></script>
+<script>
+  BotChat.App({
+    directLine: { secret: null, token: null, domain: 'https://northamerica.directline.botframework.com/v3/directline' },
+    user: { id: 'userid' },
+    bot: { id: 'botid' },
+    resize: 'detect'
+  }, document.getElementById("chat-bot"));
+</script>
+<!--Widergy Chatbot Script End-->
+
+
+
+
+--------------------------------------------------------------------------------
+-- Widget plugin for production
+--------------------------------------------------------------------------------
+
+<!--Widergy Chatbot Style Ini-->
+<link href="https://chatbots.widergy.com/Edenor-UtilityGO/chatbot/botchat.css" rel="stylesheet" />-->
+<!--Widergy Chatbot Style Ini-->
+
+
+
+<!--Widergy Chatbot Script Ini-->
+<div id="chat-bot"/>
+<script src="https://chatbots.widergy.com/Edenor-UtilityGO/chatbot/botchat.js" charset="UTF-8" async="" ></script>
+<script>
+  BotChat.App({
+    directLine: { secret: null, token: null, domain: 'https://northamerica.directline.botframework.com/v3/directline' },
+    user: { id: 'userid' },
+    bot: { id: 'botid' },
+    resize: 'detect'
+  }, document.getElementById("chat-bot"));
+</script>
+<!--Widergy Chatbot Script End-->

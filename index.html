@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+    <title>Bot Chat</title>
+
+    <link href="./botchat.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+
+  </head>
+  <body>
+    <div id="chat-bot"></div>
+
+    <script src="./botchat.js"></script>
+
+    <script type="text/babel">
+      const params = BotChat.queryParams(location.search);
+
+      window.botchatDebug = params.debug && params.debug === 'true';
+
+      ReactDOM.render(
+        <BotChat.Chat
+          bot={{
+            id: params.botid || 'botid',
+            name: params.botname || 'Edenor'
+          }}
+          directLine={{
+            domain: 'https://northamerica.directline.botframework.com/v3/directline',
+            secret: params.s || null,
+            token: params.t || null,
+            webSocket: true
+          }}
+          locale="es"
+          resize="detect"
+          sendTyping={ false }
+          user={{
+            id: params.userid || 'userid',
+            name: 'Usted'
+          }}
+          native={params.native || false}
+        />,
+        document.getElementById('chat-bot')
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+$chatViewPanel_height: 470px;
+$chatViewPanel_maxWidth: 300px;
+
+$actionViewPanel_maxHeight: 470px;
+$actionViewPanel_maxWidth: 270px;
+
+$actionsHeight: 15px;
+$height-shell: 35px;
+$consoleHeight: 30px;
+$headerGroupHeight: 61px;
+$messageGroupTop: 61px;
+
+$fontFamily: 'Nunito', normal;
+$fontSize: 11px;
+$fontSizeHeader: 13px;
+
+$headerPadding: 8px;
+$headerTotalHeight: 25px;
+$headerTotalTop: 61px;
+
+$buttonBarTotalHeight: 20px;
+$buttonBarPadding: 8px;
+
+$actionTransition: .2s cubic-bezier(0,0,.5,1);
+
+$adaptive_card_size: 235px;
+$adaptive_card_size_responsive: 270px;
+
+$card_narrow: 216px;
+$card_normal: 270px;
+$card_wide: 416px;
+$card_borderWidth: 1px;
+$card_padding: 0px;
+$card_fontSize: 13px;
+$separation: 8px;
+$card-header-separation: 8px;

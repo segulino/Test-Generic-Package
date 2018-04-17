@@ -1,0 +1,222 @@
+  {
+  "supportsInteractivity": true,
+  "spacing": {
+    "none" : 0,
+    "small": 8,
+    "default": 0,
+    "medium": 12,
+    "large": 16,
+    "extraLarge": 19,
+    "padding": 0
+  },
+  "separator": {
+    "lineThickness": 1,
+    "lineColor": "#eeeeee"
+  },
+  "fontFamily": "\"Nunito\", sans-serif",
+  "fontSizes": {
+    "small": 9,
+    "normal": 11,
+    "medium": 13,
+    "large": 15,
+    "extraLarge": 17
+  },
+  "fontWeights": {
+    "lighter": 200,
+    "default": 400,
+    "bolder": 700
+  },
+  "containerStyles": {
+    "default": {
+      "backgroundColor": "#ffffff",
+      "foregroundColors": {
+        "default": {
+          "default": "#000000",
+          "subtle": "#808c95"
+        },
+        "accent": {
+          "default": "#2e89fc",
+          "subtle": "#802E8901"
+        },
+        "attention": {
+          "default": "#ffd800",
+          "subtle": "#CCFFD800"
+        },
+        "good": {
+          "default": "#00ff00",
+          "subtle": "#CC00FF00"
+        },
+        "warning": {
+          "default": "#ff0000",
+          "subtle": "#CCFF0000"
+        }
+      }
+    },
+    "emphasis": {
+      "backgroundColor": "#08000000",
+      "foregroundColors": {
+        "default": {
+          "default": "#333333",
+          "subtle": "#EE333333"
+        },
+        "accent": {
+          "default": "#2e89fc",
+          "subtle": "#882E89FC"
+        },
+        "attention": {
+          "default": "#cc3300",
+          "subtle": "#DDCC3300"
+        },
+        "good": {
+          "default": "#54a254",
+          "subtle": "#DD54A254"
+        },
+        "warning": {
+          "default": "#e69500",
+          "subtle": "#DDE69500"
+        }
+      }
+    }
+  },
+  "colors": {
+    "dark": {
+      "normal": "#000000",
+      "subtle": "#808c95"
+    },
+    "light": {
+      "normal": "#ffffff",
+      "subtle": "#88ffff"
+    },
+    "accent": {
+      "normal": "#2e89fc",
+      "subtle": "#802E8901"
+    },
+    "attention": {
+      "normal": "#ffd800",
+      "subtle": "#CCFFD800"
+    },
+    "good": {
+      "normal": "#00ff00",
+      "subtle": "#CC00FF00"
+    },
+    "warning": {
+      "normal": "#ff0000",
+      "subtle": "#CCFF0000"
+    }
+  },
+  "imageSizes": {
+    "small": 40,
+    "medium": 64,
+    "large": 96
+  },
+  "actions": {
+    "maxActions": 100,
+    "spacing": "default",
+    "buttonSpacing": 0,
+    "showCard": {
+      "actionMode": "inline",
+      "inlineTopMargin": 8
+    },
+    "actionsOrientation": "vertical",
+    "actionAlignment": "stretch"
+  },
+  "adaptiveCard": {
+    "allowCustomStyle": true
+  },
+  "container": {
+    "normal": {
+      "backgroundColor": "#eceff1",
+      "padding": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "separation": {
+        "spacing": 0
+      }
+    },
+    "emphasis": {
+      "backgroundColor": "#eeeeee",
+      "borderColor": "#aaaaaa",
+      "borderThickness": {
+        "top": 1,
+        "right": 1,
+        "bottom": 1,
+        "left": 1
+      },
+      "padding": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      }
+    }
+  },
+  "textBlock": {
+    "color": "dark",
+    "separations": {
+      "small": {
+        "spacing": 4
+      },
+      "normal": {
+        "spacing": 8
+      },
+      "medium": {
+        "spacing": 10
+      },
+      "large": {
+        "spacing": 12
+      },
+      "extraLarge": {
+        "spacing": 14
+      }
+    }
+  },
+  "image": {
+    "size": "medium",
+    "separation": {
+      "spacing": 8
+    }
+  },
+  "imageSet": {
+    "imageSize": "medium",
+    "maxImageHeight": 100
+  },
+  "factSet": {
+    "separation": {
+      "spacing": 8
+    },
+    "title": {
+      "color": "dark",
+      "size": "normal",
+      "isSubtle": false,
+      "weight": "bolder",
+      "wrap": true,
+      "maxWidth": 150
+    },
+    "value": {
+      "color": "dark",
+      "size": "normal",
+      "isSubtle": false,
+      "weight": "normal",
+      "wrap": true
+    },
+    "spacing": 8
+  },
+  "input": {
+    "separation": {
+      "spacing": 8
+    }
+  },
+  "columnSet": {
+    "separation": {
+      "spacing": 8
+    }
+  },
+  "column": {
+    "separation": {
+      "spacing": 8
+    }
+  }
+}

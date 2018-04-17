@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@media (max-width: 450px) {
+  .wc-card {
+    border: 1px solid #d2dde5;
+    width: 214px; }
+  .wc-adaptive-card {
+    width: 214px; } }
+
+@media (min-width: 768px) {
+  .wc-card {
+    border: 1px solid #d2dde5;
+    width: 414px; }
+  .wc-adaptive-card {
+    width: 414px; } }

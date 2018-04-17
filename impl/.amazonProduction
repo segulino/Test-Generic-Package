@@ -1,0 +1,5 @@
+
+// Bucket Chatbot app
+aws s3 sync --acl public-read --sse --delete . s3://widergy-chatbots/Edenor-UtilityGO/chatbot --exclude "*" --include "index.html" --include "botchat.js" --include "botchat.css" --include "botchat-fullwindow.css" --profile widergyprod
+aws configure set preview.cloudfront true --profile widergyprod
+aws cloudfront create-invalidation --distribution-id _________ --paths '/Edenor-UtilityGO/*' --profile widergyprod
