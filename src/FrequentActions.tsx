@@ -52,7 +52,9 @@ class FrequentActionsPane extends React.Component<Props, {}> {
                 )
               }
             </div>
+            {/*
             <LogoWidergy/>
+             */}
           </div>
         </div>
       );
