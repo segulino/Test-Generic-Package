@@ -524,8 +524,8 @@
   }
 
   button:active {
-    background-color: $c_brand;
-    border-color: $c_brand;
+    background-color: $c16;
+    border-color: $c16;
     color: $c01;
   }
 
@@ -1367,7 +1367,7 @@ wdrgy-label, wdrgy-button {
   animation-duration: 2s;
   animation-name: width;
   animation-iteration-count: infinite;
-  background-image: linear-gradient(to right, #02e700, #4d97fa, #1b3768);
+  background-color: $c13;
   height: 100%;
   position: relative;
 }

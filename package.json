@@ -11,7 +11,7 @@
     "build-ac-config": "ac-scss2json ./src/scss/includes/adaptive-card-config.scss > adaptivecards-hostconfig.json",
     "build-all-style": "npm run build-css && npm run build-ac-config && webpack",
     "build-localhost": "npm run build-css && tsc && webpack --progress --config webpack.localhost.config.js",
-    "build-develpoment": "npm run build-css && tsc && webpack --progress --config webpack.development.config.js",
+    "build-development": "npm run build-css && tsc && webpack --progress --config webpack.development.config.js",
     "build-staging": "tsc && npm run build-css && webpack --progress --config webpack.staging.config.js",
     "build-production": "tsc && npm run build-css && webpack --progress --config webpack.production.config.js",
     "watch": "npm-run-all -p -r -l tsc-watch webpack-watch",

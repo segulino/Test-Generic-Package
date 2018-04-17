@@ -15,7 +15,7 @@ var coreConfig = {
     new webpack.DefinePlugin({
         'process.env': {
           'NODE_ENV': JSON.stringify('localhost'),
-          'REACT_APP_CHATBOT_API_BASE_URL': JSON.stringify('https://45b0e0e3.ngrok.io'),
+          'REACT_APP_CHATBOT_API_BASE_URL': JSON.stringify('https://5c0608b5.ngrok.io'),
           'REACT_APP_CID': JSON.stringify('utilityco-utilitygo')
         }
     }),

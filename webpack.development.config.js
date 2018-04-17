@@ -32,7 +32,7 @@ var coreConfig = {
         exclude: [/node_modules/]
       },
       {
-        test: require.resolve('microsoft-adaptivecards'),
+        test: require.resolve('adaptivecards'),
         use: [{ loader: 'expose-loader', options: 'AdaptiveCards' }]
       },
       {

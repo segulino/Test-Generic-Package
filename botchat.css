@@ -400,8 +400,8 @@
   color: #1d558c; }
 
 .wc-card button:active {
-  background-color: #02e700;
-  border-color: #02e700;
+  background-color: #98c3fc;
+  border-color: #98c3fc;
   color: #ffffff; }
 
 .wc-card.receipt table {
@@ -1038,7 +1038,7 @@ wdrgy-label, wdrgy-button {
   animation-duration: 2s;
   animation-name: width;
   animation-iteration-count: infinite;
-  background-image: linear-gradient(to right, #02e700, #4d97fa, #1b3768);
+  background-color: #1d558c;
   height: 100%;
   position: relative; }
 

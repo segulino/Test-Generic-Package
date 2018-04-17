@@ -13821,11 +13821,11 @@ var api = axios_1.default.create({
     baseURL: "https://chatbot-api-stage.widergydev.com"
 });
 exports.getActions = function () {
-    var uri = '/api/v1/webPersistentOptions?chatbot=' + "edenor-utilitygo";
+    var uri = '/api/v1/webPersistentOptions?chatbot=' + "utilityco-utilitygo";
     return api.get(uri);
 };
 exports.giveFeedback = function (payload) {
-    var uri = '/api/v1/webFeedback?chatbot=' + "edenor-utilitygo" + '&' +
+    var uri = '/api/v1/webFeedback?chatbot=' + "utilityco-utilitygo" + '&' +
         'type=' + payload.type + '&' +
         'uid=' + payload.uid + '&' +
         'action=' + payload.action + '&' +
@@ -13833,7 +13833,7 @@ exports.giveFeedback = function (payload) {
     return api.post(uri);
 };
 exports.getToken = function () {
-    var uri = '/api/v1/webGetToken?chatbot=' + "edenor-utilitygo";
+    var uri = '/api/v1/webGetToken?chatbot=' + "utilityco-utilitygo";
     return api.get(uri);
 };
 
@@ -44179,7 +44179,7 @@ var warning = __webpack_require__(2);
 
 var ReactComponentTreeHook;
 
-if (typeof process !== 'undefined' && __webpack_require__.i({"NODE_ENV":"staging","REACT_APP_CHATBOT_API_BASE_URL":"https://chatbot-api-stage.widergydev.com","REACT_APP_CID":"edenor-utilitygo"}) && "staging" === 'test') {
+if (typeof process !== 'undefined' && __webpack_require__.i({"NODE_ENV":"staging","REACT_APP_CHATBOT_API_BASE_URL":"https://chatbot-api-stage.widergydev.com","REACT_APP_CID":"utilityco-utilitygo"}) && "staging" === 'test') {
   // Temporary hack.
   // Inline requires don't work well with Jest:
   // https://github.com/facebook/react/issues/7240
@@ -51256,7 +51256,7 @@ var warning = __webpack_require__(2);
 
 var ReactComponentTreeHook;
 
-if (typeof process !== 'undefined' && __webpack_require__.i({"NODE_ENV":"staging","REACT_APP_CHATBOT_API_BASE_URL":"https://chatbot-api-stage.widergydev.com","REACT_APP_CID":"edenor-utilitygo"}) && "staging" === 'test') {
+if (typeof process !== 'undefined' && __webpack_require__.i({"NODE_ENV":"staging","REACT_APP_CHATBOT_API_BASE_URL":"https://chatbot-api-stage.widergydev.com","REACT_APP_CID":"utilityco-utilitygo"}) && "staging" === 'test') {
   // Temporary hack.
   // Inline requires don't work well with Jest:
   // https://github.com/facebook/react/issues/7240
@@ -51495,7 +51495,7 @@ var warning = __webpack_require__(2);
 
 var ReactComponentTreeHook;
 
-if (typeof process !== 'undefined' && __webpack_require__.i({"NODE_ENV":"staging","REACT_APP_CHATBOT_API_BASE_URL":"https://chatbot-api-stage.widergydev.com","REACT_APP_CID":"edenor-utilitygo"}) && "staging" === 'test') {
+if (typeof process !== 'undefined' && __webpack_require__.i({"NODE_ENV":"staging","REACT_APP_CHATBOT_API_BASE_URL":"https://chatbot-api-stage.widergydev.com","REACT_APP_CID":"utilityco-utilitygo"}) && "staging" === 'test') {
   // Temporary hack.
   // Inline requires don't work well with Jest:
   // https://github.com/facebook/react/issues/7240
@@ -53207,7 +53207,7 @@ var warning = __webpack_require__(2);
 
 var ReactComponentTreeHook;
 
-if (typeof process !== 'undefined' && __webpack_require__.i({"NODE_ENV":"staging","REACT_APP_CHATBOT_API_BASE_URL":"https://chatbot-api-stage.widergydev.com","REACT_APP_CID":"edenor-utilitygo"}) && "staging" === 'test') {
+if (typeof process !== 'undefined' && __webpack_require__.i({"NODE_ENV":"staging","REACT_APP_CHATBOT_API_BASE_URL":"https://chatbot-api-stage.widergydev.com","REACT_APP_CID":"utilityco-utilitygo"}) && "staging" === 'test') {
   // Temporary hack.
   // Inline requires don't work well with Jest:
   // https://github.com/facebook/react/issues/7240
